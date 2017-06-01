@@ -18,7 +18,8 @@ int main()
       if (cin.fail()){
         cin.clear();
       }
-      cin.ignore();
+
+      cin.ignore(1000, '\n');
       continue;
     }
     
