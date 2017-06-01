@@ -14,8 +14,12 @@ int main()
     cout << "Enter any number, -1 for exit" << endl;
     
     if (!(cin >> input_var)) {
-      cout << "You've entered non-numeric symbol. Exiting..." << endl;
-      break;
+      cout << "You've entered non-numeric symbol. Resetting..." << endl;
+      if (cin.fail()){
+        cin.clear();
+      }
+      cin.ignore();
+      continue;
     }
     
     if (input_var != -1) {
