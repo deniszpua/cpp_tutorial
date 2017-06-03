@@ -1,4 +1,4 @@
-// number_guess.cpp: Denys Soroka quux@ukr.net
+// number_guess.cpp: Denys Soroka
 // Description: program implements random number guess game
 
 #include <stdlib.h>

@@ -1,4 +1,4 @@
-// get_input.cpp: Denys Soroka quux@ukr.net
+// get_input.cpp: Denys Soroka
 // Description: a program demonstrates handling keyboard input
 // using cin
 
