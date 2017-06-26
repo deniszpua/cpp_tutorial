@@ -64,9 +64,11 @@ void Composer::Demote(int decrement) {
 }
 
 void Composer::Display() {
-  cout << "*** " << first_name() << " " << last_name() << " ***"<< endl;
-  cout << "\tYear of birht is " << composer_yob() << endl;
-  cout << "\tGenre is " << composer_genre() << endl;
-  cout << "\tRank is " << ranking() << endl;
+  cout << "**********************************************" << endl;
+  cout << "\t" << first_name() << " " << last_name() << endl;
+  cout << "Year of birht is " << composer_yob() << endl;
+  cout << "Genre is " << composer_genre() << endl;
+  cout << "Rank is " << ranking() << endl;
   cout << "Interesting facts: " << fact() << endl;
+  cout << "**********************************************" << endl;
 }
